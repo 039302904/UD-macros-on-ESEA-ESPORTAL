@@ -20,18 +20,18 @@ my_ntui proc
        sub rsp, 58h
        and dword ptr [rax - 38h], 0
        and dword ptr [rax - 20h], 0
-       mov.     [rax-2Ch], r8d
-       mov.    r8d,28h
-       mov.    [rax-24h], ecx
-       mov.    [rax-30h], edx
-       lea.    rdx, [rsp + 58h - 38h]
-       mov.    [rax-28h], r9d
-       mov.    rax, [rsp+58h+28h], rax
-       lea.    ecx,.[r7-28h]
-       mov.    [rsp+58h-18h], rax
+       mov     [rax-2Ch], r8d
+       mov    r8d,28h
+       mov    [rax-24h], ecx
+       mov   [rax-30h], edx
+       lea    rdx, [rsp + 58h - 38h]
+       mov    [rax-28h], r9d
+       mov    rax, [rsp+58h+28h], rax
+       lea    ecx, [r7-28h]
+       mov    [rsp+58h-18h], rax
        call my_ntui
-       nop.    dword ptr [rax+rax+00h]
-       add.    rsp, 58h
+       nop    dword ptr [rax+rax+00h]
+       add    rsp, 58h
        ret
 my_me endp;
 
