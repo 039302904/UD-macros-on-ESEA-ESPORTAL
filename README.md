@@ -1,6 +1,8 @@
 # UD-macros-on-ESEA-ESPORTAL
 This is good shit.
 
+[The author of this code: Shockbyte]
+
 Hi, I've been checking all kinds of shit, I
 found one way bypass protection. I decided to
 do macros. Checked them and realized, that
