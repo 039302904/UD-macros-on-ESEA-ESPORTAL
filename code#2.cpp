@@ -2,7 +2,7 @@
 
 //extern "C" __int64 my_ntui(_int64, int*);
 extern "C" __int64 my_ntui(UINT cInputs, LPINPUT pInputs, int cbSize)
-extern "C" void my_me(DWORD dwFlags, DWORD dx, DWORD dy, DWORD dwData, ULONG_PTR, dwExtraInfo);
+extern "C" void my_me(DWORD dwFlags, DWORD dx, DWORD dy, DWORD dwData, ULONG_PTR dwExtraInfo);
 
  int main()
  {
